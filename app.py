@@ -8,10 +8,10 @@ app.secret_key = 'temporary_key'
 # Database connection
 def get_db_connection():
     return mysql.connector.connect(
-        host='database-2.c5eyis2co1ux.ap-south-1.rds.amazonaws.com',
-        user='admin',
-        password='azam_1234',
-        database='course_app'
+        host='clonedb.c56g4kmq4b38.us-east-1.rds.amazonaws.com',  
+        user='admin1',      
+        password='Adminau2022pccads133',    
+        database='clonedb'
     )
 
 # Registration Route
